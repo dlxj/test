@@ -1,10 +1,6 @@
 # 安装Arch Linux
 
-----
-
-
 ## 硬盘分区
-
 
 分成两个区
 sda1 512M的引导分区 dos 类型，分配空间的结束扇区输入 +512M
@@ -13,28 +9,20 @@ sda2 分全部可用空间
 >fsdisk -l  
 fsdisk /dev/sda
 
-
 ## 格式化
 >mkfs.fat -F32 /dev/sda1  
 mkfs.ext4 /dev/sda2
-
----
 
 ## 网络安装基本系统
 
 >mount  /dev/sda1  /mnt  
 pacstrap /mnt base base-devel
 
-
-----
-
 ## 配置挂载表
 
 >genfstab -L /mnt >> /mnt/etc/fstab  
 >cat /mnt/etc/fstab  
 - 会看到 /dev/sta2 被挂载到 /
-
-
 
 
 ## 转移控制权

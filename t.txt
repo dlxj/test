@@ -1,1 +1,3 @@
-s§dsddd
+
+wget -O t.txt --no-check-certificate https://raw.githubusercontent.com/dlxj/test/master/t.txt
+

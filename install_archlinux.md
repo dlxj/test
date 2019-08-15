@@ -101,5 +101,5 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 # 重启
 
-> exit
+> exit  
 reboot

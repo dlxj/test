@@ -46,28 +46,28 @@ pacstrap /mnt base base-devel
 
 
 
-# 安装必备软件
+## 安装必备软件
 > pacman -Sy  
 pacman -S wpa_supplicant networkmanager git
 - 前两个是联网必备
 
-# 设置主机名
+## 设置主机名
 > vim /etc/hostname
 
 
-# 设置网络
+## 设置网络
 > vim /etc/hosts
-# 在最后追加
+## 在最后追加
 
 127.0.0.1	localhost  
 ::1		localhost  
 127.0.1.1	这里是主机名.localdomain	这里是主机名
 
 
-# 设置Root密码
+## 设置Root密码
 > passwd
 
-# 安装Bootloader
+## 安装Bootloader
 > pacman -S os-prober    
 pacman -S grub  
 grub-install --target=i386-pc /dev/sda  
@@ -78,7 +78,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 
 
-# 检查是否存在arch linux 入口
+## 检查是否存在arch linux 入口
 > vim /boot/grub/grub.cfg
 
 
@@ -88,10 +88,17 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 
 
-# 重启
+## 重启
 
 > exit  
 reboot
+
+## 修改控制台字体大小
+
+vi /etc/vconsole.conf  
+
+
+
 
 ## 排查网络问题
 lspci -v  

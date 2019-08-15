@@ -1,4 +1,9 @@
 
+
+https://raw.githubusercontent.com/dlxj/test/master/t.txt
+
+
+
 # 词类
 
 独立语有：体言(名词、代名词、数量名词)、用言(动词、形容词、形容动词)、副词、连体词、接续词，感叹词

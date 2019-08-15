@@ -97,8 +97,9 @@ reboot
 
 vi /etc/vconsole.conf  
 
-
-
+FONT=lat2-16  
+FONT_MAP=8859-2  
+- 16 改成8 字体变大
 
 ## 排查网络问题
 lspci -v  

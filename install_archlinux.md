@@ -29,6 +29,7 @@ pacstrap /mnt base base-devel
 
 > arch-chroot /mnt
 - 控制权交给刚装好的硬盘系统
+- 如果picman 出问题：rm /var/lib/pacman/db.lck
 
 
 - **如果以后我们的系统出现了问题，只要插入U盘并启动， 将我们的系统根分区挂载到了/mnt下（如果有efi分区也要挂载到/mnt/boot下），再通过这条命令就可以进入我们的系统进行修复操作。**

@@ -58,9 +58,7 @@ pacstrap /mnt base base-devel
 
 # 安装必备软件
 > pacman -Sy  
-pacman -S git
-
-
+pacman -S wpa_supplicant networkmanager git
 
 # 设置主机名
 > vim /etc/hostname

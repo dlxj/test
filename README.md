@@ -2,7 +2,7 @@
 
 https://raw.githubusercontent.com/dlxj/test/master/t.txt
 
-
+wget -O master.zip --no-check-certificate https://raw.githubusercontent.com/dlxj/test/master/t.txt
 
 # 词类
 

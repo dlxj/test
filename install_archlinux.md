@@ -94,9 +94,29 @@ grub-mkconfig -o /boot/grub/grub.cfg
 reboot
 
 ## 排查网络问题
+lspci -v  
+dmesg |grep atl1  
+ls /sys/class/net  
+ip link set eth0 up  
+ip link show dev eth0  
+
 
 systemctl enable NetworkManager.service  
 systemctl start NetworkManager.service
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -92,3 +92,14 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 > exit  
 reboot
+
+## 排查网络问题
+
+systemctl enable NetworkManager.service  
+systemctl start NetworkManager.service
+
+
+
+
+
+

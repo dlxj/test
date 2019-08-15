@@ -79,12 +79,12 @@ pacman -S git
 > passwd
 
 # 安装Bootloader
-> pacman -S os-prober  
-pacman -S grub
-grub-install --target=i386-pc /dev/sda
+> pacman -S os-prober    
+pacman -S grub  
+grub-install --target=i386-pc /dev/sda  
 grub-mkconfig -o /boot/grub/grub.cfg
 
--  如果出错：
+- 如果出错：
 /etc/lvm/lvm.conf这个文件，找到use_lvmetad = 1将1修改为0，保存，重新配置grub
 
 

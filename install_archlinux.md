@@ -15,7 +15,7 @@ mkfs.ext4 /dev/sda2
 
 ## 网络安装基本系统
 
->mount  /dev/sda1  /mnt  
+>mount  /dev/sda2  /mnt  
 pacstrap /mnt base base-devel
 
 ## 配置挂载表

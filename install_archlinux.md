@@ -95,7 +95,7 @@ reboot
 
 ## 修改控制台字体大小
 
-showconsolefont  
+ls /usr/share/kbd/consolefonts/  
 - 查看当前可用字体
 
 setfont lat2-8 -m 8859-2  

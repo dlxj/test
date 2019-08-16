@@ -98,10 +98,12 @@ reboot
 ls /usr/share/kbd/consolefonts/  
 - 查看当前可用字体
 
-setfont lat2-8 -m 8859-2  
-- 临时改变字体
 
+临时改变字体  
 setfont -h8 /usr/share/kbd/consolefonts/drdos8x8.psfu.gz
+- Alt+Fx,x=1,2,3,4...
+  - 切换控制台
+
 
 **永久改变字体**  
 vi /etc/vconsole.conf  

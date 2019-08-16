@@ -126,7 +126,8 @@ dmesg | grep 8139cp
 - ip link set eth0 up  
 - ip link set eth0 down  
 
-
+查看hosts 配置
+- getent hosts 
 
 ip link set eth0 up  
 ip link show dev eth0  

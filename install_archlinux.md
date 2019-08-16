@@ -129,6 +129,9 @@ dmesg | grep 8139cp
 查看hosts 配置
 - getent hosts 
 
+## limboemu 的默认网关
+- 10.0.2.0/24
+
 
 配置 dhcp  
 - dhcpcd -k  

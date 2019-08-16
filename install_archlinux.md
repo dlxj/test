@@ -136,7 +136,8 @@ dmesg | grep 8139cp
 - dhcpcd   
   - 请求一个新的地址
 
-
+路由
+- ip route show
 
 ip link set eth0 up  
 ip link show dev eth0  

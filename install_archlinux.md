@@ -95,8 +95,16 @@ reboot
 
 ## 修改控制台字体大小
 
-vi /etc/vconsole.conf  
+showconsolefont  
+- 查看当前可用字体
 
+setfont lat2-8 -m 8859-2  
+- 临时改变字体
+
+setfont -h8 /usr/share/kbd/consolefonts/drdos8x8.psfu.gz
+
+**永久改变字体**  
+vi /etc/vconsole.conf  
 FONT=lat2-16  
 FONT_MAP=8859-2  
 - 16 改成8 字体变大

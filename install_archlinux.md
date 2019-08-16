@@ -117,7 +117,7 @@ lspci -v
 dmesg | grep 8139cp  
 - 查看网卡驱动是否己加载  
 
-查看网卡状态  
+查看所有网卡名 
 - ip link  
 - iw dev 无线设备  
 - ls /sys/class/net  
@@ -125,12 +125,16 @@ dmesg | grep 8139cp
 启用和禁用网卡
 - ip link set eth0 up  
 - ip link set eth0 down  
+  - 网卡会被重命名，以查到的名字为准
 
 查看hosts 配置
 - getent hosts 
 
 查看DNS 配置：
 - cat /etc/resolv.conf  
+
+查看所有运行中的服务
+- systemctl --type=service
 
 
 ## limboemu 连网

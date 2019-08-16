@@ -159,6 +159,19 @@ ip link set eth0 up
 ip link show dev eth0  
 
 
+停用NM
+- systemctl stop NetworkManager.service    
+- systemctl disable NetworkManager.service     
+
+卸载MN
+- pacman -Rns netctl  
+
+
+另一个网络管理工具
+- systemd-networkd.service  
+- systemd-networkd  
+
+
 systemctl enable NetworkManager.service  
 systemctl start NetworkManager.service
 

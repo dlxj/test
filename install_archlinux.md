@@ -129,6 +129,15 @@ dmesg | grep 8139cp
 查看hosts 配置
 - getent hosts 
 
+
+配置 dhcp  
+- dhcpcd -k  
+  - 释放 IP 地址  
+- dhcpcd   
+  - 请求一个新的地址
+
+
+
 ip link set eth0 up  
 ip link show dev eth0  
 

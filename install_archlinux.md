@@ -112,7 +112,11 @@ FONT_MAP=8859-2
 
 ## 排查网络问题
 lspci -v  
-dmesg |grep atl1  
+- 查看所有pci 硬件设备  
+
+dmesg | grep e1000  
+- 查看网卡驱动是否己加载  
+
 ls /sys/class/net  
 ip link set eth0 up  
 ip link show dev eth0  

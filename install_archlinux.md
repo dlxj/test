@@ -134,7 +134,7 @@ dmesg | grep 8139cp
 - 网关：10.0.2.2  
 - DNS：10.0.2.3  
 - SAMBA文件共享服务器：10.0.2.4  
-
+- https://en.m.wikibooks.org/wiki/QEMU
 
 
 

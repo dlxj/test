@@ -129,6 +129,10 @@ dmesg | grep 8139cp
 查看hosts 配置
 - getent hosts 
 
+查看DNS 配置：
+- cat /etc/resolv.conf  
+
+
 ## limboemu 连网
 - hosts 端提供的NAT 服务  
 - 网关：10.0.2.2  

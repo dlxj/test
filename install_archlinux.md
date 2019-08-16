@@ -166,6 +166,12 @@ ip link show dev eth0
 卸载MN
 - pacman -Rns netctl  
 
+停用netctl
+- systemctl stop netctl@ens.service    
+- systemctl disable netctl@ens.service     
+
+
+
 
 另一个网络管理工具
 - systemd-networkd.service  

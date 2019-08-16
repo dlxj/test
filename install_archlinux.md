@@ -114,7 +114,7 @@ FONT_MAP=8859-2
 lspci -v  
 - 查看所有pci 硬件设备  
 
-dmesg | grep e1000  
+dmesg | grep 8139cp  
 - 查看网卡驱动是否己加载  
 
 查看网卡状态  

@@ -6,7 +6,8 @@ NLP
 - typora+坚果云(github) = 个人云笔记  
 - 坚果云(github) + hexo = GitHub 博客  
 - markor 安卓的markdownd 阅读器  
-- Bochs Limbo APQ QEMU 安卓上安装Linux虚拟机  
+- Bochs Limboemu APQ QEMU 安卓上安装Linux虚拟机
+- virmach 便宜的vps
 - linux deploy 安卓手机刷原生Linux  
 - AndroCat 安卓坚果云客户端  
 - Aurora Store 应用商店xda 出品  

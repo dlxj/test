@@ -117,11 +117,16 @@ lspci -v
 dmesg | grep e1000  
 - 查看网卡驱动是否己加载  
 
-
-获取当前网络名  
-- ls /sys/class/net  
+查看网卡状态  
 - ip link  
-- iw dev 无线设备
+- iw dev 无线设备  
+- ls /sys/class/net  
+
+启用和禁用网卡
+- ip link set eth0 up  
+- ip link set eth0 down  
+
+
 
 ip link set eth0 up  
 ip link show dev eth0  

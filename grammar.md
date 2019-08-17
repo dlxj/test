@@ -18,7 +18,7 @@
  助词和连体词粘在体言后面，助动词粘在用言后面
 
 
- ![词类](./img/ch1/juijuiriyun1kaojifudaoxiaolinglaosi.jpg)
+ ![词类](./juijuiriyun1kaojifudaoxiaolinglaosi.jpg)
 
 # 句型
 

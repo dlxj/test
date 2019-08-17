@@ -72,6 +72,20 @@
 
 
 
+
+# 动词
+
+する  
+
+ある  
+
+
+
+
+
+
+
+
 http://xianbai.me/learn-md/article/syntax/blockquotes.html
 
 

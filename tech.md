@@ -3,7 +3,8 @@
 NLP
 - Google Colab 在线python 编辑器，免费GPU  
 - notion 云笔记  
-- typora+坚果云(github) = 个人云笔记  
+- 纯纯写作 永不丢失的笔记
+- typora+坚果云(github) = 个人云笔记   
 - 坚果云(github) + hexo = GitHub 博客  
 - markor 安卓的markdownd 阅读器  
 - Bochs Limboemu APQ QEMU 安卓上安装Linux虚拟机

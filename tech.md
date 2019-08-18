@@ -1,4 +1,7 @@
 
+ssh 传的是私钥
+- ssh -i .ssh/id_rsa -T git@github.com
+
 
 NLP
 - Google Colab 在线python 编辑器，免费GPU  
